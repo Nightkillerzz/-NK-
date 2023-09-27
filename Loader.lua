@@ -21,4 +21,13 @@ if getgenv().NightKey == "FirstKeyForDiscordMembers" then
         ]])
         setclipboard("https://discord.gg/bTWphkwgZM") -- Copy the discord link to clipboard
     end
+else
+    game:GetService("Players").LocalPlayer:Kick([[
+        .
+        Invalid Key!
+        Join the discord for the game list.
+        https://discord.gg/bTWphkwgZM
+        (It's been copied to clipboard too!)
+    ]])
+    setclipboard("https://discord.gg/bTWphkwgZM") -- Copy the discord link to clipboard
 end
