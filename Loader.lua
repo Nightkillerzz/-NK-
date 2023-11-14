@@ -3,7 +3,7 @@ if not game:IsLoaded() then
     game.Loaded:wait()
 end
 
-if getgenv().NightKey == "Tbh, I just be changing this key for fun lmao" then
+if getgenv().NightKey == "Sheeeeeeesh" then
     -- Check the game's GameId
     if game.GameId == 4737765103 then
         -- If the GameId matches, execute a remote script
